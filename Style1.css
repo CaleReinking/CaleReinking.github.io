@@ -2,3 +2,20 @@
 {
     background-color: antiquewhite;
 }
+
+ul {
+    background-color: beige;
+    border: black 5px;
+    height: 50px;
+    width: 90px;
+}
+    
+    margin: 10px;
+    padding: 10px;
+}
+li {
+    background-color: burlywood;
+    text-align: left;
+    height: 40px;
+    width: 80px;
+}
