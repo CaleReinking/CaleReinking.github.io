@@ -7,26 +7,28 @@
     <link rel="stylesheet" href="Style1.css" />
 </head>
 <body style="background-color: antiquewhite;">
-    <div class="box2" style="display:block;">
-        <ul class="nav-ul">
-            <li class="nav-li">
-                <a href="Index.html">Home</a>
+
+    <div class="container">
+        <ul class="funny">
+            <li class="funniest">
+                <a href="Index.html" class="funnier">Home</a>
             </li>
-            <li class="nav-li">
-                <a href="About.html">About</a>
+            <li class="funniest">
+                <a href="About.html" class="funnier">About</a>
             </li>
-            <li class="nav-li">
-                <a href="Projects.html">Projects</a>
+            <li class="funniest">
+                <a href="Employment.html" class="funnier">Employment History</a>
             </li>
-            <li class="nav-li">
-                <a href="Skills.html">Skill Sets</a>
+            <li class="funniest">
+                <a href="Projects.html" class="funnier">Projects</a>
             </li>
-            <li class="nav-li">
-                <a href="Employment.html">Employment History</a>
+            <li class="funniest">
+                <a href="Skills.html" class="funnier">Skill Sets</a>
             </li>
+
         </ul>
     </div>
-    <h1 style="font-weight: 800; padding-top: 140px;">Skill Sets</h1>
+    <h1 style="font-weight: 800; padding-top: 40px;">Skill Sets</h1>
     <h3>Programming Experience</h3>
     <ul>
         <li>C#</li>
@@ -54,11 +56,16 @@
         <li>Active Listener</li>
         <li>Proficient Spanish Speaker</li>
     </ul>
+    
+    <br />
     <footer>
+
         <p>&copy; Cale Reinking's Website<p>Date/Time: <span id="datetime"></span></p>
-        <script>
-var dt = new Date();
-document.getElementById("datetime").innerHTML=dt.toLocaleString();</script></p>
+        <p>
+            <script>
+                var dt = new Date();
+                document.getElementById("datetime").innerHTML = dt.toLocaleString();</script>
+        </p>
     </footer>
 </body>
 </html>

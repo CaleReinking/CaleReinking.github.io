@@ -3,21 +3,26 @@
     background-color: antiquewhite;
 }
 
-.box2 {
-    position: absolute;
-    background-color: beige;
-    width: 25%;
-    height: 135px;
+ .funny {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: burlywood;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.funniest {
     float: left;
 }
-ul {
-    list-style-type: none;
+.funnier {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-li {
-    display: list-item;
-    text-align: match-parent
-    padding: 
-}
-.nav-li {
-    background-color: rgba(0,0,0,.25);
+li a:hover {
+    background-color:saddlebrown;
 }
