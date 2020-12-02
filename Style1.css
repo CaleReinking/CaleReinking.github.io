@@ -28,7 +28,7 @@ li a:hover {
 }
 .btn-lg:hover {
     color: sandybrown;
-    
+    stop-color: none;
 }
 .btn-lg {
     display: block;
