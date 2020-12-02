@@ -18,11 +18,25 @@
 }
 .funnier {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 li a:hover {
     background-color:saddlebrown;
+}
+.btn-lg:hover {
+    color: sandybrown;
+    
+}
+.btn-lg {
+    display: block;
+    
+}
+button {
+    background-color: antiquewhite;
+}
+button:hover {
+    zoom: 120%;
 }
